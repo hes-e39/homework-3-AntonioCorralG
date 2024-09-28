@@ -1,3 +1,8 @@
+
+//import colors
+//map through the colors.json
+// 
+
 const App = () => {
     const ColorButton = () => {
         return <button>Color me!</button>;
