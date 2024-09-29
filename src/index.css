@@ -15,5 +15,37 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+#colorButton {
+  background-color: aquamarine;
+  color: #242424;
+  font-weight: 700;
+  padding: .5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+
+}
+
+#colorButton:hover {
+  background-color: rgb(119, 170, 133);
+}
+
+#colorButton:active{
+  color: slategrey;
+}
+
+
 
