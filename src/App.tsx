@@ -59,7 +59,7 @@ const App = () => {
     return (
         <>
             <h1>Welcome to Color World!</h1>
-            <p>Press the button bellow for an irradicent suprise!</p>
+            <p>Press the button below for an iridescent            suprise!</p>
             {/* displays the button and uses onClick to handle the click */}
             <ColorButton onClick={handleButtonColorClick}> You're lucky colors for today!</ColorButton>
             {/* conditional rendering of the colors display div */}
